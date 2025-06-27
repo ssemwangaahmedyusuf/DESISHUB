@@ -116,23 +116,131 @@ width: 100%;
 height: 100%;
 /* position: absolute; */
 }
+@media(max-width:1280px){
+    .card{
+        width: 35vw;
+    }
+    .faith{
+        width: 10rem;
+        height: 10rem;
+        left: 9rem;
+    }
+    .word{
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+    .icons{
+        margin-bottom: 1rem;
+        gap: 1.5rem;
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+    .comment{
+        width:2rem;
+    }
+    button{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:1115px){
+    .faith{
+        left: 7rem;
+    }
+}
+@media(max-width:885px){
+    .card{
+        width: 60vw;
+        height: 60vh;
+    }
+    .faith{
+        width: 13rem;
+        height: 13rem;
+        left: 10rem;
+    }
+    .word{
+        font-size: 2rem;
+        padding-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    .icons{
+        margin-bottom: 1.5rem;
+    }
+    button{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:835px){
+    .card{
+        width: 70vw;
+        height: 60vh;
+    }
+    .word{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+    .icons{
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+    .buttons{
+        gap: 4rem;
+    }
+    .faith{
+        width: 12rem;
+        height: 12rem;
+        left: 12rem;
+        top: 5rem;
+    }
+    .text{
+font-size: 1.5rem;
+    }
+    .comment{
+        width: 2rem;
+    }
+}
 @media(max-width:820px){
     .card{
         width: 70vw;
         height: 60vh;
     }
     .faith{
-        left: 5rem;
+        left: 12rem;
+        top: 5rem;
+        width: 12rem;
+        height: 12rem;
+    }
+    .word{
+        padding-top: 5rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .icons{
+        margin-bottom: 2rem;
+    }
+}
+@media(max-width:801px){
+    .faith{
+        top: 7rem;
+    }
+    .icons{
+        margin-bottom: 1rem;
+    }
+    button{
+    margin-bottom: 1rem;
     }
 }
 @media(max-width:768px){
   .card{
-     height: 60vh;
+     height: 70vh;
    width: 80vw;
    margin-top: 6rem;
   }  
   .faith{
-    left: 6rem;
+    width: 14rem;
+    height: 14rem;
+    left: 12rem;
+    top: 3rem;
   }
 }
 
@@ -167,23 +275,24 @@ height: 100%;
 @media(max-width:360px){
     .card{
        
-        height:52vh;
+        height:60vh;
     }
     .faith{
         left:5rem;
+        top: 2rem;
 
     }
     .word{
-        padding-top: 3.5rem;
+        padding-top: 3rem;
     }
 }
-@media(max-width:320px){
+@media(max-width:330px){
     .card{
         width: 90vw;
         height: 80vh;
     }
     .faith{
-        top: 4rem;
+        top: 3rem;
     }
 }
 
