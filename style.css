@@ -245,8 +245,9 @@ font-size: 1.5rem;
 }
 @media(max-width:428px){
     .card{
+       
         width: 95vw;
-        height: 75vh;
+        height: 70vh;
     }
     .faith{
         width: 10rem;
@@ -256,6 +257,7 @@ font-size: 1.5rem;
     }
     .word{
         padding-top: 2.5rem;
+        font-size: 1.5rem;
     }
     .icons{
         gap: 1rem;
@@ -305,15 +307,16 @@ font-size: 1.5rem;
 
 @media(max-width:412px){
     .card{
-        height: 55vh;
+        height: 60vh;
     }
     .faith{
-        top: 5rem;
+        top: 3rem;
     }
 }
-@media(max-width:392px){
+@media(max-width:394px){
     .card{
-        height:80vh;
+        height:65vh;
+      
     }
     .faith{
         top:3rem;
@@ -321,6 +324,12 @@ font-size: 1.5rem;
     }
     .word{
         padding-top: 3rem;
+    }
+}
+@media(max-width:391px){
+    .card{
+      
+        height: 75vh;
     }
 }
 @media(max-width:378px){
@@ -350,17 +359,19 @@ font-size: 1.5rem;
         width: 1.5rem;
     }
 }
-@media(max-width:362px){
+@media(max-width:363px){
     .card{
        width: 90vw;
-        height:60vh;
+        height:63vh;
+       
+       
       
     }
     .faith{
         width: 9rem;
         height: 9rem;
-        left:5rem;
-        top: 4rem;
+        left:3rem;
+        top: 3rem;
 
     }
     .word{
@@ -386,6 +397,15 @@ font-size: 1.5rem;
     }
     .faith{
         left: 6rem;
+    }
+}
+@media(max-width:361px){
+    .card{
+        
+        height: 80vh;
+    }
+    .faith{
+        top: 4rem;
     }
 }
 @media(max-width:330px){
